@@ -27,10 +27,9 @@ var _serverProcess = child.spawn("python3", ["test.py"], w_options); // SPAWN me
 if (_serverProcess && _serverProcess.stdout) {
     _serverProcess.stdout.on("data", (p_data) => {
 
-        console.log('got data: ');
         p_data.toString().split("\n").forEach(p_line => {
             p_line = p_line.trim();
-            console.log(p_line)
+            console.log("js got data line :" + p_line)
         });
 
 
