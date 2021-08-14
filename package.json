@@ -1,0 +1,15 @@
+{
+  "name": "test-spawn",
+  "version": "1.0.0",
+  "description": "test for spawning processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "program"
+  ],
+  "author": "Félix",
+  "license": "ISC"
+}
